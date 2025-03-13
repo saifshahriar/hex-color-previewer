@@ -1,0 +1,42 @@
+body {
+	background-color: #0f0f0f;
+}
+
+h1 {
+	font-size: 250%;
+	text-align: center;
+}
+
+#en {
+	font-family: "Major Mono Display", monospace;
+}
+
+#jpn {
+	font-family: "Rampart One", cursive;
+}
+
+#container {
+	color: #ffffff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#input {
+	background-color: black;
+	color: yellow;
+	width: 80%;
+	height: 25%;
+	font-size: 100%;
+	font-family: "Nova Mono", monospace;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 8px;
+	margin: 0;
+	padding: 10px;
+}
+
+::placeholder {
+	color: yellow;
+}
